@@ -1,0 +1,65 @@
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-300 font-bold leading-tight mb-1;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl text-primary-500;
+  }
+
+  h3 {
+    @apply text-lg text-primary-500;
+  }
+
+  h4 {
+    @apply text-lg text-primary-500;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  p:last-of-type {
+    @apply mb-0;
+  }
+
+  a:not(.reset-link) {
+    @apply text-secondary-500 underline;
+  }
+
+  a:not(.reset-link):hover,
+  a:not(.reset-link):focus {
+    @apply text-secondary-700;
+  }
+
+  a.btn {
+    @apply no-underline;
+  }
+
+  @screen md {
+    h1 {
+      @apply text-3xl;
+    }
+
+    h2 {
+      @apply text-2xl;
+    }
+
+    h3 {
+      @apply text-xl;
+    }
+
+    h4 {
+      @apply text-lg;
+    }
+  }
+}

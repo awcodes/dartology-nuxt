@@ -1,0 +1,70 @@
+@layer components {
+  .btn {
+    @apply flex items-center justify-center border-2 border-primary-500 text-primary-500 font-medium bg-primary-500 bg-opacity-10 py-2 px-4 rounded;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    @apply bg-primary-800 text-primary-300;
+  }
+
+  .btn:active {
+    @apply border-primary-500 text-primary-500 bg-primary-500 bg-opacity-10;
+  }
+
+  .btn[disabled] {
+    @apply opacity-20;
+  }
+
+  .btn.secondary {
+    @apply border-secondary-500 text-secondary-500 bg-secondary-500 bg-opacity-10;
+  }
+
+  .btn.secondary:hover,
+  .btn.secondary:focus {
+    @apply bg-secondary-800 text-secondary-300;
+  }
+
+  .btn.secondary:active {
+    @apply border-secondary-500 text-secondary-500 bg-secondary-500 bg-opacity-10;
+  }
+
+  .btn.tertiary {
+    @apply border-tertiary-500 text-tertiary-500 bg-tertiary-500 bg-opacity-10;
+  }
+
+  .btn.tertiary:hover,
+  .btn.tertiary:focus {
+    @apply bg-tertiary-800 text-tertiary-300;
+  }
+
+  .btn.tertiary:active {
+    @apply border-tertiary-500 text-tertiary-500 bg-tertiary-500 bg-opacity-10;
+  }
+
+  .btn.accent {
+    @apply border-accent-500 text-accent-500 bg-accent-500 bg-opacity-10;
+  }
+
+  .btn.accent:hover,
+  .btn.accent:focus {
+    @apply bg-accent-800 text-accent-300;
+  }
+
+  .btn.accent:active {
+    @apply border-accent-500 text-accent-500 bg-accent-500 bg-opacity-10;
+  }
+
+  .btn.orange {
+    @apply border-orange-500 text-orange-500 bg-orange-500 bg-opacity-10;
+  }
+
+  .btn.orange:hover,
+  .btn.orange:focus {
+    @apply bg-orange-800 text-orange-300;
+  }
+
+  .btn.orange:active {
+    @apply border-orange-500 text-orange-500 bg-orange-500 bg-opacity-10;
+  }
+}
